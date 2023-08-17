@@ -1,11 +1,11 @@
 :root {
-    --primary:rgb(0, 195, 255);
-    --primary-dark: rgb(0, 195, 255);
+    --primary:rgb(30, 30, 130);
+    --primary-dark: rgb(30, 30, 110);
     --secondary:hsl(25, 99%, 63%);
     --secondary-dark: hsl(25, 99%, 60%);
     --white:#f5f9fa;
     --white2: #ebf3f5;
-    --gray:#e1e4e5;
+    --gray:#999fa0;
     --gray2:#c0c6c9;
     --gray3:#4b4c4d;
     --black:#323333;
