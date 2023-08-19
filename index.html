@@ -6,6 +6,7 @@
     <title>Ernesto Ramirez Arvizu | Portafolio</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="node_modules/eins-modal/dist/css/eins-modal.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="assets/css/index.css">    
 </head>
@@ -99,7 +100,7 @@
                     <img src="https://lentes.salud-digna.org/wp-content/uploads/2020/09/Logo-sd.png" />
                     <h4>Salud Digna @Radiographer</h4>
                 </a>
-                <a>
+                <a data-modal-id="myActualJob">
                     <img src="https://yt3.googleusercontent.com/ytc/AMLnZu8S9hTf5FNXQ7UylCkadskzI-pL11XRMywtx845=s900-c-k-c0x00ffffff-no-rj" />
                     <h4>Hospital Country 2000 @Radiographer</h4>
                 </a>
@@ -136,7 +137,26 @@
     <footer>
         <small>Developed and designed by Ernesto Ramirez Arvizu. ©2023. All rights reserved.</small>
     </footer>
+    <div id="myModal" class="eins-modal">
+        <div class="eins-modal-content">
+          <div class="eins-modal-close"></div>
+      
+          Mi primer trabajo
+          
+          <button class="eins-modal-close-button">OK</button>
+        </div>
+      </div>
+      <div id="myActualJob" class="eins-modal">
+        <div class="eins-modal-content">
+          <div class="eins-modal-close"></div>
+      
+          Mi trabajo actual
+          
+          <button class="eins-modal-close-button">OK</button>
+        </div>
+      </div>
     <script src="assets/js/main.js"></script>    
     <script src="assets/js/fixed.js"></script>
+    <script src="node_modules/eins-modal/dist/js/eins-modal.min.js"></script>
 </body>
 </html>
